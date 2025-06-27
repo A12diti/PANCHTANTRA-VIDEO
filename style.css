@@ -1,0 +1,20 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #e8f5e9; /* light green background */
+}
+#container img {
+  position: absolute;
+  width: 200px;
+  opacity: 0; /* characters are hidden at first */
+}
+#tree { top: 20%; left: 40%; }
+#monkey { bottom: 15%; left: 10%; }
+#crocodile { bottom: 0; right: 10%; }
+#wife { bottom: 0; right: -200px; } /* offscreen to slide in later */
